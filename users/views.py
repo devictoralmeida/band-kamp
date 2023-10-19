@@ -11,7 +11,7 @@ class UserView(CreateAPIView):
     serializer_class = UserSerializer
 
     @extend_schema(
-        description="Rota para criação de álbuns.",
+        description="Rota para criação de usuários",
         tags=["Criação de usuários"],
         parameters=[
             UserSerializer,
